@@ -42,7 +42,7 @@ router.get('/users', async (ctx, next) => {
 app.use(router.routes())
 	.use(router.allowedMethods());
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 10000;
 const server = http.createServer(app.callback());
 
 const wsServer = createServer(server)
