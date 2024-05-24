@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "prestart": "npm install",
     "start": "forever src/server.js",
     "watch": "forever -w src/server.js"
   },
