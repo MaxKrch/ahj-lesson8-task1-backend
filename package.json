@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "forever src/server.js",
+    "start": "forever server.js",
     "watch": "forever -w src/server.js"
   },
   "repository": {
