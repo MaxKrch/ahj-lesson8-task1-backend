@@ -6,7 +6,7 @@ const cors = require('@koa/cors');
 const Router = require('koa-router');
 const koaStatic = require('koa-static'); 
 
-const { createServer } = require('./src/api/WebSockets.js');
+const { createServer } = require('./src/api/webSockets.js');
 const {	chekingUser, saveUser, loadUsers, removeUser } = require('./src/api/users.js');
 
 const app = new Koa();
