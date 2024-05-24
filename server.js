@@ -11,7 +11,7 @@ const {	chekingUser, saveUser, loadUsers, removeUser } = require('./src/api/user
 
 const app = new Koa();
 const router = new Router();
-const public = path.join(__dirname, '/public');
+const public = path.join(__dirname, '/src/public');
 
 app.use(cors());
 app.use(koaStatic(public));
